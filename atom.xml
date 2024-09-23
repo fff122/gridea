@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lvl.asia</id>
+    <title>:) の 個人網站</title>
+    <updated>2024-09-23T05:27:46.850Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lvl.asia"/>
+    <link rel="self" href="https://lvl.asia/atom.xml"/>
+    <subtitle>会いたい人がいれば、きっともう一人じゃないこと。</subtitle>
+    <logo>https://lvl.asia/images/avatar.png</logo>
+    <icon>https://lvl.asia/favicon.ico</icon>
+    <rights>All rights reserved 2024, :) の 個人網站</rights>
+    <entry>
+        <title type="html"><![CDATA[睡觉]]></title>
+        <id>https://lvl.asia/post/shui-jue/</id>
+        <link href="https://lvl.asia/post/shui-jue/">
+        </link>
+        <updated>2024-09-08T16:12:29.000Z</updated>
+        <content type="html"><![CDATA[<p>睡觉<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1eT2CjXwFXNx6oY5ydvzKU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[听歌]]></title>
+        <id>https://lvl.asia/post/ting-ge/</id>
+        <link href="https://lvl.asia/post/ting-ge/">
+        </link>
+        <updated>2024-08-15T03:14:21.000Z</updated>
+        <content type="html"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7727syzQAfD0YhA40bqviO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[快手果然是刷怪笼]]></title>
+        <id>https://lvl.asia/post/kuai-shou-guo-ran-shi-shua-guai-long/</id>
+        <link href="https://lvl.asia/post/kuai-shou-guo-ran-shi-shua-guai-long/">
+        </link>
+        <updated>2024-08-10T17:12:20.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lvl.asia/post-images/1723309967261.jpg" alt="" loading="lazy"> <br><br>
+06年就已婚有娃了😨😰😨😰</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费白嫖Stable Diffusion AI绘图]]></title>
+        <id>https://lvl.asia/post/mian-fei-bai-piao-stable-diffusion-ai-hui-tu/</id>
+        <link href="https://lvl.asia/post/mian-fei-bai-piao-stable-diffusion-ai-hui-tu/">
+        </link>
+        <updated>2024-08-04T06:08:00.000Z</updated>
+        <content type="html"><![CDATA[<p>最新发现👀👀👀👀Prodia 好像你调用了api，次数也还是1000次<img src="https://lvl.asia/post-images/1723204827792.png" alt="" loading="lazy"> 好像可以一直白嫖 <br><br>
+昨天发现了<a href="https://prodia.com/">Prodia</a> 有免费的Stable Diffusion 的API提供，我的想法是能白嫖绝不花钱💩白嫖Stable Diffusion需要注册两个网站<br><br>
+💡<a href="https://prodia.com/">Prodia</a> 一个账号能白嫖1000次，用完可换一个邮箱继续白嫖</p>
+<ul>
+<li><a href="https://huggingface.co/">huggingface</a></li>
+<li><a href="https://prodia.com/">Prodia</a></li>
+</ul>
+<ol>
+<li>第一步打开<a href="https://prodia.com/">Prodia</a> 申请免费的API<br>
+<img src="https://lvl.asia/post-images/1722752346053.png" alt="" loading="lazy"></li>
+<li>打开 <a href="https://huggingface.co/spaces/prodia/fast-stable-diffusion">huggingface</a> Prodia的hugging face的仓库<br>
+<img src="https://lvl.asia/post-images/1722752258684.png" alt="" loading="lazy"></li>
+<li>然后获取docker 部署命令<br>
+<img src="https://lvl.asia/post-images/1722752559112.png" alt="" loading="lazy"><br>
+<img src="https://lvl.asia/post-images/1722752563700.png" alt="" loading="lazy"><br>
+docker 命令格式为<br>
+<code>docker run -it -p 7860:7860 --platform=linux/amd64 \ -e PRODIA_API_KEY=YOUR_KEY \ registry.hf.space/prodia-fast-stable-diffusion:latest python app.py</code><br>
+<br>把你获取的api_key填在YOUR_KEY处就可以然后去服务器运行就可以<br><br>
+🔦服务器要提前安装docker环境，这里贴一个佬的docker 安装教程</li>
+</ol>
+<ul>
+<li><a href="https://blog.csdn.net/baidu_36511315/article/details/108117826">CSDN</a><br>
+安装成功后就是这个样子的<img src="https://lvl.asia/post-images/1722753054180.png" alt="" loading="lazy"><br>
+接下来我们就可以愉快的玩sd了</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[雷池 WAF 文件上传被绕过]]></title>
+        <id>https://lvl.asia/post/lei-chi-waf-wen-jian-shang-chuan-bei-rao-guo/</id>
+        <link href="https://lvl.asia/post/lei-chi-waf-wen-jian-shang-chuan-bei-rao-guo/">
+        </link>
+        <updated>2024-08-03T06:47:13.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lvl.asia/post-images/1722667886519.jpg" alt="" loading="lazy"> <br>信息来源</p>
+<ul>
+<li><a href="https://t.me/Cybersec_threat/1290">赛博安全威胁情报</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows最新高危病毒，不删除你的电脑就会被黑客攻入]]></title>
+        <id>https://lvl.asia/post/windows-zui-xin-gao-wei-bing-du-bu-shan-chu-ni-de-dian-nao-jiu-hui-bei-hei-ke-gong-ru/</id>
+        <link href="https://lvl.asia/post/windows-zui-xin-gao-wei-bing-du-bu-shan-chu-ni-de-dian-nao-jiu-hui-bei-hei-ke-gong-ru/">
+        </link>
+        <updated>2024-08-03T06:43:41.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lvl.asia/post-images/1722667459053.jpg" alt="" loading="lazy"> <br></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[睡前听会歌]]></title>
+        <id>https://lvl.asia/post/shui-qian-ting-hui-ge/</id>
+        <link href="https://lvl.asia/post/shui-qian-ting-hui-ge/">
+        </link>
+        <updated>2024-08-02T17:19:39.000Z</updated>
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1439814454&auto=1&height=66"></iframe> 这么好听的歌，为啥我最近几个月才发现 😤]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[about]]></title>
+        <id>https://lvl.asia/post/about/</id>
+        <link href="https://lvl.asia/post/about/">
+        </link>
+        <updated>2024-08-02T14:31:57.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="我的学习之路">🌱 我的学习之路</h2>
+<ul>
+<li><strong>不断学习</strong>：我正在学习新技能，每天都在进步。</li>
+<li><strong>开放心态</strong>：我对世界保持好奇，愿意尝试新事物。</li>
+</ul>
+<h2 id="我的社交信条">🤝 我的社交信条</h2>
+<ul>
+<li><strong>互相学习</strong>：我认为每个人都可以是我的老师。</li>
+</ul>
+<h2 id="我的目标">🚀 我的目标</h2>
+<ul>
+<li><strong>自我提升</strong>：我致力于不断成长，成为更好的自己。</li>
+</ul>
+<h2 id="我的灵感">💡 我的灵感</h2>
+<ul>
+<li><strong>创意思考</strong>：我喜欢思考问题的不同角度，寻找创新的解决方案。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Word]]></title>
+        <id>https://lvl.asia/post/hello-word/</id>
+        <link href="https://lvl.asia/post/hello-word/">
+        </link>
+        <updated>2024-08-02T14:14:15.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lvl.asia/post-images/1723037770795.jpg" alt="" loading="lazy">#gridea<br>
+由于今天实在无聊，便想写个博客玩玩 😅 ，也算是圆了之前的心愿了<br>
+其实之前也不是没想搭建，只是感觉动态博客貌似很麻烦，最令我头疼的就是<br></p>
+<ul>
+<li>服务器<br>
+服务器这东西，国外的容易被墙，国内的备案又很麻烦，直到今天发现一个叫gridea的东西，所以我感觉我又行了正好前几天刚低价买了个域名就拿来用了,正好用来打发打发时间</li>
+</ul>
+]]></content>
+    </entry>
+</feed>
